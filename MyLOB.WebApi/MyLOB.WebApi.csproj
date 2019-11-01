@@ -273,12 +273,10 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MVC\MVCController.cs" />
     <Compile Include="Controllers\WebAPI\WebAPIController.cs" />
-    <Compile Include="EasyLOB\Activity\ActivityViewAutoMapper.cs" />
     <Compile Include="EasyLOB\Activity\AppDIAutofacHelperActivity.cs" />
     <Compile Include="EasyLOB\AppDefaults.cs" />
     <Compile Include="EasyLOB\AppHelper.cs" />
     <Compile Include="EasyLOB\AuditTrail\AppDIAutofacHelperAuditTrail.cs" />
-    <Compile Include="EasyLOB\AuditTrail\AuditTrailViewAutoMapper.cs" />
     <Compile Include="EasyLOB\DI\AppDIAutofacHelper.cs" />
     <Compile Include="EasyLOB\EasyLOB\AppDIAutofacHelperEasyLOB.cs" />
     <Compile Include="EasyLOB\EasyLOB\AppDIAutofacHelperExtensions.cs" />
@@ -291,13 +289,11 @@
     <Compile Include="EasyLOB\MyLOB\AppHelper.cs" />
     <Compile Include="EasyLOB\MyLOB\MyLOBProfileAttribute.cs" />
     <Compile Include="EasyLOB\Identity\AppHelper.cs" />
-    <Compile Include="EasyLOB\Identity\IdentityViewAutoMapper.cs" />
     <Compile Include="EasyLOB\MVC\AppDefaults.cs" />
     <Compile Include="EasyLOB\MVC\AppHelper.cs" />
     <Compile Include="EasyLOB\MVC\CultureAttribute.cs" />
     <Compile Include="EasyLOB\MVC\CustomRazorViewEngine.cs" />
     <Compile Include="EasyLOB\MVC\ValidateModelStateAttribute.cs" />
-    <Compile Include="EasyLOB\MyLOB\MyLOBViewAutoMapper.cs" />
     <Compile Include="EasyLOB\Syncfusion\Dashboard\DashboardServiceSerialization.cs" />
     <Compile Include="EasyLOB\Syncfusion\Dashboard\DashboardViewer.cs" />
     <Compile Include="EasyLOB\Syncfusion\Excel\SyncfusionExcelExtensions.cs" />
