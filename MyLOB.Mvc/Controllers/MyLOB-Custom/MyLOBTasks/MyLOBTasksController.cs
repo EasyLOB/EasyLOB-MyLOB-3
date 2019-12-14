@@ -14,7 +14,9 @@ namespace MyLOB.Mvc
 
         #region Methods
 
-        public MyLOBTasksController(IMyLOBUnitOfWork unitOfWork)
+        public MyLOBTasksController(IMyLOBUnitOfWork unitOfWork,
+            IAuthorizationManager authorizationManager)
+            : base(authorizationManager)
         {
             UnitOfWork = unitOfWork;
         }
