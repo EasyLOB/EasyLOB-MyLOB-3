@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyLOB</RootNamespace>
     <AssemblyName>MyLOB</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EasyLOBGenerator.cs" />
-    <Compile Include="Interfaces-Custom\IMyLOBApplication.cs" />
     <Compile Include="Interfaces\Application\IMyLOBGenericApplication.cs" />
     <Compile Include="Interfaces\Application\IMyLOBGenericApplicationDTO.cs" />
     <Compile Include="Interfaces\Persistence\IMyLOBGenericRepository.cs" />
@@ -78,10 +77,6 @@
     <ProjectReference Include="..\..\EasyLOB-3\EasyLOB\EasyLOB.csproj">
       <Project>{6706907a-8932-46e7-a1c8-7575130ff8f7}</Project>
       <Name>EasyLOB</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyLOB.Data\MyLOB.Data.csproj">
-      <Project>{8b91a0ef-d58e-4cbe-bdd9-b4ccac9d8c8a}</Project>
-      <Name>MyLOB.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

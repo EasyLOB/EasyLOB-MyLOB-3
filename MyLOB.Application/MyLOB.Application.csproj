@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>MyLOB.Application</RootNamespace>
     <AssemblyName>MyLOB.Application</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EasyLOB\Syncfusion\Excel\SyncfusionExcelExtensions.cs" />
+    <Compile Include="Interfaces\IMyLOBApplication.cs" />
     <Compile Include="MyLOBApplication\MyLOBApplication.cs" />
     <Compile Include="MyLOBGenericApplication.cs" />
     <Compile Include="MyLOBGenericApplicationDTO.cs" />
