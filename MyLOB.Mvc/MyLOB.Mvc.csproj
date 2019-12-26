@@ -922,6 +922,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\easylob\easylob.dictionary.js" />
     <Content Include="Scripts\easylob\easylob.js" />
+    <Content Include="Scripts\easylob\easylob.txt" />
     <Content Include="Scripts\easylob\ej\i18n\ej.culture.pt-BR.js" />
     <Content Include="Scripts\easylob\ej\i18n\ej.culture.pt-BR.min.js" />
     <Content Include="Scripts\easylob\ej\jsrender.js" />
